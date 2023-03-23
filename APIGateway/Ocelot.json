@@ -1,0 +1,43 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:5206"
+    },
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/gateway/notification",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownStreamPathTemplate": "/api/notification",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5161
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/gateway/notification/{nik}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownStreamPathTemplate": "/api/notification/{nik}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5161
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/gateway/notification/detail/{id}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownStreamPathTemplate": "/api/notification/detail/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5161
+                }
+            ]
+        }
+    ]
+}
