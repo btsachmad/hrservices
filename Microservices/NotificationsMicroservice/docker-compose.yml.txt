@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  AuthService:
+   image: ${DOCKER_REGISTRY-}NotificationAPI:v1
+   build:
+    context: ./NotificationAPI
+    dockerfile: Dockerfile
+   environment:
+    - ASPNETCORE_ENVIRONMENT=Development
+    - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=localhost;Port=5432;Database=hrserviceapi1;User ID =postgres;Password=root;Integrated Security=true;Pooling=true;
+   ports:
+    - "8002:80"
