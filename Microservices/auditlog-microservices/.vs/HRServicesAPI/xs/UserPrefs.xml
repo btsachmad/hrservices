@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{2D6702F9-4769-4E93-904B-B3A22757E469}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="obj/Debug/net6.0/HRServicesAPI.GlobalUsings.g.cs">
+    <Files>
+      <File FileName="obj/Debug/net6.0/HRServicesAPI.GlobalUsings.g.cs" Line="18" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRServicesAPI" expanded="True">
+            <Node name="HRServicesAPI" expanded="True">
+              <Node name="Migrations" expanded="True">
+                <Node name="20230322035603_AddUserTable.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HRServicesAPI PreferredExecutionTarget="/Applications/Google Chrome Dev.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
